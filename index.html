@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="id" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio Rafka Aleandra Putra — Web Development, UI/UX, Laravel & Game Development">
+  <meta name="theme-color" content="#050914">
+  <title>Rafka Aleandra Putra — Portfolio</title>
+  <link rel="icon" href="assets/images/logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <script id="theme-init">(function(){const t=localStorage.getItem("portfolio-theme")||localStorage.getItem("cv-theme")||"dark";document.documentElement.setAttribute("data-theme",t==="light"?"light":"dark");})();</script>
+  <link rel="stylesheet" href="assets/style.css">
+
+<style>
+html[data-theme="light"] .project-card,
+html[data-theme="light"] .about-panel,
+html[data-theme="light"] .skills-panel,
+html[data-theme="light"] .contact-panel,
+html[data-theme="light"] .experience-card,
+html[data-theme="light"] .achievement-card{color:var(--text)}
+html[data-theme="light"] .project-card p,
+html[data-theme="light"] .about-panel p,
+html[data-theme="light"] .contact-panel p,
+html[data-theme="light"] .experience-card p{color:var(--muted)!important;opacity:1}
+html[data-theme="light"] .project-card .tag,
+html[data-theme="light"] .project-card .project-link,
+html[data-theme="light"] .text-btn{color:var(--accent)!important}
+html[data-theme="light"] .contact-item,
+html[data-theme="light"] .profile-list div,
+html[data-theme="light"] .skill,
+html[data-theme="light"] .bar i{background:var(--panel-2)!important}
+</style>
+
+</head>
+<body>
+<div class="site-bg" aria-hidden="true"></div>
+
+<header class="header" id="header">
+  <div class="nav-wrap">
+    <a class="brand" href="#home">Porto Rafka<span>.</span></a>
+
+    <nav class="nav" id="nav">
+      <a class="active" href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Experience & Contact</a>
+      <span class="nav-indicator" aria-hidden="true"></span>
+    </nav>
+
+    <div class="nav-actions">
+      <button class="theme-switch" id="themeToggle" aria-label="Ganti tema" title="Ganti tema">
+        <span class="theme-icon">☾</span>
+      </button>
+      <a class="cv-btn" href="assets/CV-Rafka.pdf" target="_blank" rel="noopener">Download CV <span></span></a>
+      <button class="menu-btn" id="menuBtn" aria-label="Buka menu">☰</button>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section class="hero section-pad" id="home">
+    <div class="hero-copy reveal">
+      <div class="eyebrow">&lt;/&gt; RPL STUDENT · WEB DEVELOPER</div>
+      <h1><strong>Rafka <span>Aleandra Putra</span></strong></h1>
+      <h2>Web Developer &amp; UI/UX Enthusiast</h2>
+      <div class="accent-line"></div>
+      <p>
+        Siswa Rekayasa Perangkat Lunak (RPL) Kelas 12 SMKN 4 Bandung dengan minat di bidang Web Development dan Game Development.Berpengalaman membuat aplikasi web menggunakan Laravel, serta memiliki ketertarikan pada UI/UX dan pengembangan game 2D.
+      </p>
+      <div class="hero-actions">
+        <a class="btn primary" href="#projects">Lihat Project</span></a>
+        <a class="btn secondary" href="assets/CV-Rafka.pdf" target="_blank" rel="noopener">Lihat CV</span></a>
+      </div>
+      <div class="hero-meta">
+        <span><i>●</i> SMKN 4 Bandung · RPL</span>
+      </div>
+    </div>
+
+    <div class="hero-visual reveal">
+      <div class="orbit orbit-a"></div>
+      <div class="orbit orbit-b"></div>
+      <div class="portrait-card">
+        <img src="assets/images/profilee2.png" alt="Foto Rafka Aleandra Putra">
+        <div class="portrait-glow"></div>
+      </div>
+      <div class="code-badge">&lt;/&gt;</div>
+      <div class="ui-badge">UI/UX</div>
+      <div class="role-card">
+        <span>FOCUS</span>
+        <strong>Web Development</strong>
+        <small>Laravel · JavaScript · SQL</small>
+      </div>
+    </div>
+  </section>
+
+  <section class="about-section section-pad" id="about">
+  <div class="about-panel reveal">
+    <div class="section-kicker"> <h2>Profile</h2></div>
+    <p class="lead">Siswa Rekayasa Perangkat Lunak yang memiliki minat dan passion di bidang Web Development dan Game Development. Memiliki kemampuan dalam membangun aplikasi web menggunakan HTML, CSS, JavaScript, dan Laravel, serta memahami dasar pengelolaan database menggunakan SQL. Terbiasa membuat desain antarmuka menggunakan Figma dan memiliki ketertarikan dalam pengembangan UI/UX. Mampu bekerja secara individu maupun dalam tim, serta memiliki semangat belajar yang tinggi untuk mengembangkan skill di bidang teknologi. </p>
+    <div class="profile-list">
+      <div><b>Nama</b><span>Rafka Aleandra Putra</span></div>
+      <div><b>Lahir</b><span>04 Agustus 2009 · Bandung, Jawa Barat</span></div>
+      <div><b>Pendidikan</b><span>SMKN 4 Bandung · XII RPL 2</span></div>
+      <div><b>Periode</b><span>2024 — 2027</span></div>
+      <div><b>Minat</b><span>Web Development · UI/UX · Game Development</span></div>
+      <div><b>Email</b><span>rafkaaleandra06@gmail.com</span></div>
+    </div>
+    <a class="text-btn" href="assets/CV-Rafka.pdf" target="_blank" rel="noopener">Lihat CV Lengkap <span>→</span></a>
+  </div>
+</section>
+
+<section class="skills-section section-pad" id="skills">
+  <div class="skills-panel reveal">
+    <div class="section-kicker"><h2>Skils &amp; Technologies</h2></div>
+    <div class="skill-grid">
+      <div class="skill"><i class="devicon-html5-plain colored"></i><b>HTML5</b></div>
+      <div class="skill"><i class="devicon-css3-plain colored"></i><b>CSS3</b></div>
+      <div class="skill"><i class="devicon-javascript-plain colored"></i><b>JavaScript</b></div>
+      <div class="skill"><i class="devicon-laravel-plain colored"></i><b>Laravel</b></div>
+      <div class="skill"><i class="devicon-mysql-original colored"></i><b>MySQL</b></div>
+      <div class="skill"><i class="devicon-figma-plain colored"></i><b>Figma</b></div>
+      <div class="skill"><i class="devicon-godot-plain colored"></i><b>Godot</b></div>
+      <div class="skill"><i class="devicon-github-original"></i><b>GitHub</b></div>
+      <div class="skill"><i class="devicon-vscode-plain colored"></i><b>VS Code</b></div>
+      <div class="skill aseprite"><span>✦</span><b>Aseprite</b></div>
+    </div>
+    <div class="skill-bars">
+      <div class="bar"><span class="bar-label"><i class="devicon-html5-plain colored"></i><strong>HTML</strong><b>90%</b></span><i class="bar-track"><em style="width:90%"></em></i></div>
+      <div class="bar"><span class="bar-label"><i class="devicon-css3-plain colored"></i><strong>CSS</strong><b>75%</b></span><i class="bar-track"><em style="width:80%"></em></i></div>
+      <div class="bar"><span class="bar-label"><i class="devicon-javascript-plain colored"></i><strong>JavaScript</strong><b>60%</b></span><i class="bar-track"><em style="width:65%"></em></i></div>
+      <div class="bar"><span class="bar-label"><i class="devicon-laravel-plain colored"></i><strong>Laravel</strong><b>75%</b></span><i class="bar-track"><em style="width:75%"></em></i></div>
+      <div class="bar"><span class="bar-label"><i class="devicon-mysql-original colored"></i><strong>SQL</strong><b>85%</b></span><i class="bar-track"><em style="width:85%"></em></i></div>
+      <div class="bar"><span class="bar-label"><i class="devicon-figma-plain colored"></i><strong>Figma</strong><b>50%</b></span><i class="bar-track"><em style="width:60%"></em></i></div>
+    </div>
+  </div>
+</section>
+
+  <section class="projects section-pad" id="projects">
+    <div class="section-head reveal">
+      <div>
+        <div class="section-kicker"><h2>Projects</h2></div>
+      </div>
+      <span class="project-count">04 Featured Projects</span>
+    </div>
+
+    <div class="project-grid">
+      <article class="project-card reveal project-link" data-project="proyek-dayflow.html">
+        <div class="project-image"><img src="assets/images/dayflow1.png" alt="DayFlow"><span>01 · PRODUCTIVITY APP</span></div>
+        <div class="project-body">
+          <h3>DayFlow</h3>
+          <p>Aplikasi produktivitas untuk mengatur tugas, aktivitas harian, kebiasaan, dan catatan dalam satu dashboard.</p>
+          <div class="tags"><span>UI/UX</span><span>Productivity</span><span>Dashboard</span></div>
+          <span class="project-detail">Lihat detail proyek</span>
+        </div>
+        </article>
+
+      <article class="project-card reveal project-link" data-project="proyek-portoedu.html">
+        <div class="project-image"><img src="assets/images/porto1.png" alt="PortoEdu"><span>02 · DIGITAL PORTFOLIO</span></div>
+        <div class="project-body">
+          <h3>PortoEdu</h3>
+          <p>Platform portfolio digital berbasis Laravel untuk profil, project, prestasi, sertifikat, organisasi, skills, authentication, dan dashboard.</p>
+          <div class="tags"><span>Laravel</span><span>MySQL</span><span>Bootstrap</span><span>JavaScript</span></div>
+          <span class="project-detail">Lihat detail proyek</span>
+        </div>
+        </article>
+
+      <article class="project-card reveal project-link" data-project="proyek-blog.html">
+        <div class="project-image"><img src="assets/images/blog.png" alt="RafkaBlog"><span>03 · WEB DEVELOPMENT</span></div>
+        <div class="project-body">
+          <h3>RafkaBlog</h3>
+          <p>Personal blog berbasis React + Vite untuk catatan belajar, dokumentasi project, eksperimen UI, dan proses belajar web development.</p>
+          <div class="tags"><span>React</span><span>Vite</span><span>Tailwind</span><span>Router</span></div>
+          <span class="project-detail">Lihat detail proyek</span>
+        </div>
+        </article>
+
+      <article class="project-card reveal project-link" data-project="proyek-godot.html">
+        <div class="project-image"><img src="assets/images/game1.png" alt="2D Game Development"><span>04 · GAME DEVELOPMENT</span></div>
+        <div class="project-body">
+          <h3>2D Game Development</h3>
+          <p>Eksplorasi game 2D menggunakan Godot dengan pixel art, animasi, movement, collision, dan interaksi sederhana.</p>
+          <div class="tags"><span>Godot</span><span>GDScript</span><span>Aseprite</span><span>Pixel Art</span></div>
+          <span class="project-detail">Lihat detail proyek</span>
+        </div>
+        </article>
+    </div>
+  </section>
+
+  <section class="bottom-grid section-pad">
+    <div class="experience panel reveal" id="experience">
+      <div class="section-kicker"><h2>Riwayat Organisasi</h2></div>
+      <div class="timeline">
+        <div class="timeline-item">
+          <span>2024 — 2027</span>
+          <h3>Paskibra SMKN 4</h3>
+          <p>Anggota · disiplin, teamwork, tanggung jawab, dan kepemimpinan.</p>
+        </div>
+        <div class="timeline-item">
+          <span>2021 — Sekarang</span>
+          <h3>Karang Taruna</h3>
+          <p>Berpartisipasi dalam kegiatan sosial, kepemudaan, komunikasi, dan kemasyarakatan.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="achievements panel reveal" id="achievements">
+      <div class="section-kicker"><h2>Soft Skill</h2></div>
+      <div class="focus-list">
+        <div><b>01</b><span><strong>Web Development</strong>Memperkuat Laravel, JavaScript, database, dan deployment.</span></div>
+        <div><b>02</b><span><strong>UI/UX</strong>Belajar membuat interface yang konsisten, jelas, dan berorientasi pengguna.</span></div>
+        <div><b>03</b><span><strong>Game Development</strong>Mengembangkan kemampuan Godot, GDScript, dan pixel art.</span></div>
+      </div>
+    </div>
+
+    <div class="contact-panel panel reveal" id="contact">
+      <div class="section-kicker"><h2>Contact</h2></div>
+      <p>Terbuka untuk belajar, berkolaborasi, dan mengembangkan kemampuan di lingkungan kerja profesional.</p>
+      <div class="contact-list">
+        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=rafkaaleandra06@email.com  "><span class="contact-icon email-icon"><i class="fas fa-envelope"></i></span><div><small>Email</small><b>rafkaaleandra06@gmail.com</b></div></a>
+        <a href="https://wa.me/6287719095778" target="_blank" rel="noopener"><span class="contact-icon wa-icon"><i class="fab fa-whatsapp"></i></span><div><small>WhatsApp</small><b>+62 877-1909-5778</b></div></a>
+        <a href="https://instagram.com/rfkaaleandra" target="_blank" rel="noopener"><span class="contact-icon ig-icon"><i class="fab fa-instagram"></i></span><div><small>Instagram</small><b>@rafkaaleandra_</b></div></a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="footer-inner">
+    <div class="footer-bottom">
+      <span class="footer-description">Student of Software Engineering yang fokus pada Web Development, UI/UX, dan Game Development.</span>
+      <span class="footer-copy">© 2026 Rafka Aleandra Putra. All rights reserved.</span>
+    </div>
+  </div>
+</footer>
+<button id="topBtn" class="floating-top" aria-label="Kembali ke atas" title="Kembali ke atas">↑</button>
+
+
+<script src="assets/script.js"></script>
+</body>
+</html>
+
